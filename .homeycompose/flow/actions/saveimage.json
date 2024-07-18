@@ -1,0 +1,28 @@
+{
+  "id": "save_image",
+  "title": {
+      "en": "Save Image"
+  },
+  "titleFormatted": {
+      "en": "Save [[droptoken]] from [[camera]] to [[folder]]"
+  },
+  "droptoken": [
+    "image"
+  ],
+  "args": [
+    {
+      "name": "folder",
+      "type": "text",
+      "title": {
+        "en": "Folder"
+      }
+    },
+    {
+      "name": "camera",
+      "type": "text",
+      "title": {
+        "en": "Camera"
+      }
+    }
+  ]
+}   

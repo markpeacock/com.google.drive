@@ -1,0 +1,61 @@
+{
+  "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
+  "id": "com.google.drive",
+  "version": "1.0.0",
+  "compatibility": ">=5.0.0",
+  "sdk": 3,
+  "platforms": [
+    "local"
+  ],
+  "name": {
+    "en": "Google Drive"
+  },
+  "description": {
+    "en": "Adds support for Google Drive."
+  },
+  "category": [
+    "tools"
+  ],
+  "permissions": [],
+  "images": {
+    "small": "/assets/images/small.png",
+    "large": "/assets/images/large.png",
+    "xlarge": "/assets/images/xlarge.png"
+  },
+  "author": {
+    "name": "Mark Peacock",
+    "email": "mark_peacock@yahoo.com"
+  },
+  "flow": {
+    "actions": [
+      {
+        "id": "save_image",
+        "title": {
+          "en": "Save Image"
+        },
+        "titleFormatted": {
+          "en": "Save [[droptoken]] from [[camera]] to [[folder]]"
+        },
+        "droptoken": [
+          "image"
+        ],
+        "args": [
+          {
+            "name": "folder",
+            "type": "text",
+            "title": {
+              "en": "Folder"
+            }
+          },
+          {
+            "name": "camera",
+            "type": "text",
+            "title": {
+              "en": "Camera"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
